@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.container {
+    width: 98%;
+    margin: 1%;
+
+}
+
+.header {
+    background:white;
+    color: black;
+    padding: 1rem 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.hero {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+   
+    
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+}
+
+.hero-buttons .btn {
+    background: rgb(36, 62, 36);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+*.hero-buttons .her {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.about, .services, .why-us, .gallery, .contact {
+    padding: 4rem 0;
+}
+
+.about p {
+    margin-top: 1rem;
+}
+
+.services .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.service-item h3 {
+    margin: 1rem 0;
+}
+
+.why-us .why-us-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-us-item {
+    width: 30%;
+    text-align: center;
+}
+
+.gallery .gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input,
+.contact form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: rgb(4, 53, 4);
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.footer-contact {
+    margin-top: 1rem;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+}
+.hello {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+   
+    
+}
+.me{
+    
+    width: 50%;
+    padding-left: 6px;
+    
+}
+.you{
+    width: 50%;
+     display: flex;
+     justify-content: center;
+    
+}
+.alx {
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.crazy{
+    border-bottom: #ff9b00;
+    text-align: center;
+}
+
+.edit{
+    display: flex;
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
